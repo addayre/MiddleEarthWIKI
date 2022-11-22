@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header {
+    background-image: linear-gradient(to right, #a0ffe3, #E5E5E5);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 35px 60px;
+}
+.logo-lordOfRings {
+    width: 250px;
+}
+.logo-middleEarth {
+    font-family: 'ABeeZee', sans-serif;
+    display: inline-block;
+    color: darkgreen;
+    font-size: 30px;
+}
+#menu-header ul li {
+    display: inline;
+}
+#menu-header ul li a{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 28px;
+    color: black;
+    padding: 0px 35px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+#menu-header ul li a:hover {
+    text-decoration: underline darkgreen;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 25px;
+}
