@@ -11,7 +11,7 @@
     background-position: 20vh 64vh;
 }
 .banner {
-    box-shadow: 0vh 0vh 1.5vh black;
+    box-shadow: 0vh 0.3vh 1vh black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,11 +24,11 @@
 }
 .banner-title h1 {
     color: black;
-    text-shadow: 0vh 0vh 0.3vh darkslategray;
+    text-shadow: 0vh 0vh 0.5vh black;
 }
 .banner-title h2{
     color: yellowgreen;
-    text-shadow: 0vh 0vh 0.3vh darkslategray;
+    text-shadow: 0vh 0vh 0.5vh black;
 }
 .banner-image{
     position: relative;
