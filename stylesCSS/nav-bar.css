@@ -32,10 +32,10 @@
     padding: 0px 35px;
     display: inline-block;
     text-decoration: none;
-    transition: .4s;
+    transition: .2s;
 }
 #menu-header ul li a:hover {
-    text-decoration: underline darkgreen;
+    text-decoration: underline yellowgreen;
     text-decoration-thickness: 5px;
     text-underline-offset: 20px;
 }
