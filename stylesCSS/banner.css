@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#top {
+    background: url("../imgs/Leaves.png") repeat fixed 1vh;
+    background-size: 50%;
+    background-position: 20vh 64vh;
+}
+.banner {
+    box-shadow: 0vh 0vh 1.5vh black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 350px;
+}
+.banner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.banner-title h1 {
+    color: black;
+    text-shadow: 0vh 0vh 0.3vh darkslategray;
+}
+.banner-title h2{
+    color: yellowgreen;
+    text-shadow: 0vh 0vh 0.3vh darkslategray;
+}
+.banner-image{
+    position: relative;
+    top: -0.6vh;
+    width: 15vh;
+}
+.banner-image1{
+    position: relative;
+    top: -1vh;
+    width: 35vh;
+}
