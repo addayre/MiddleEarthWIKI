@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 15px 60px;
+    gap: 8px 15px;
 }
 .logo-lordOfRings {
     width: 250px;

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Questrial&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.backgroundMain {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.title-main {
+    position: relative;
+    top: 8vh;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-align: center;
+}
+hr {
+    position: relative;
+    top: 1.7vh;
+    border: 0;
+    border-top: medium double #CCC;
+    height: 1px;
+    overflow: visible;
+    color: #CCC;
+    text-align: center;
+}
+hr::after {
+    content: "♾️";
+    display: inline-block;
+    position: relative;
+    top: -0.75em;
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    background-color: transparent;
+} 
+.cardSection {
+    margin-top: 12vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "mainContent sidebarContent";
+    padding: 20px;
+    flex: 1 0 auto;
+}
+.mainCardImg {
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+}
+.sidebarCardImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.categoryCard {
+    width: 280px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 50px 20px;
+    grid-area: mainContent;
+}
+.categoryCard:hover {
+    border-color: black;
+}
+.mainCategoryCardTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    text-align: center;
+}
+.mainCategoryCardDescription {
+    font-family: 'Nanum Myeongjo', serif;
+    font: 18px;
+}

@@ -4,3 +4,5 @@
 /* banner-top style */
 @import "./stylesCSS/banner.css";
 
+/* content-middle */
+@import "./stylesCSS/main-content.css"
