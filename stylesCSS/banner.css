@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 #top {
-    background: url("../imgs/Leaves.png") repeat fixed 1vh;
+    background: url("../imgs/Leaves.png") repeat scroll 1vh;
     background-size: 50%;
     background-position: 20vh 64vh;
 }
