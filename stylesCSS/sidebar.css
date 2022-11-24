@@ -3,8 +3,38 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
 .sidebarContent h2 {
+    position: relative;
+    top: 1.2vh;
     font-size: 32px;
-    text-align: start;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+.sidebarCardTitle {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;   
+}
+.sidebarCardImg {
+    min-width: 100%;
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.sidebarContent {
+    background-color: #65FDF0;
+    border-radius: 35px;  
+    min-width: 300px
+}
+.sidebarCard {
+    border: 2px solid transparent; 
+    border-radius: 13px;
+    transition: .4s;
+    margin: 20px;
+}
+.sidebarCard:hover {
+    border-color: black;
 }
