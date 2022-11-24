@@ -60,7 +60,7 @@ hr::after {
     height: auto;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.5s; /* zoom animation */
+    transition: 0.3s; /* zoom animation */
 }
 .mainContent {
     display: flex;
