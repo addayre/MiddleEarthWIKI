@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+footer {
+    background-color: #85FFBD;   
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.footerTitle {
+    font-family: 'ABeeZee', sans-serif;
+    display: inline-block;
+    color: darkgreen;
+    font-size: 20px;
+}
+.descriptionFooter{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+    color: darkslategray;
+}
+.creditFooter {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 10px;
+}

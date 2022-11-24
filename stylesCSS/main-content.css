@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.backgroundMain {
+main {
     background-color: #defbff;
     background-image: linear-gradient(180deg, #defbff 70%, #ccffdc 100%);    
 }
@@ -56,7 +56,6 @@ hr::after {
 .categoryCard {
     width: 280px;
     height: auto;
-    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s; /* zoom animation */
 }
