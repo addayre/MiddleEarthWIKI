@@ -5,4 +5,7 @@
 @import "./stylesCSS/banner.css";
 
 /* content-middle */
-@import "./stylesCSS/main-content.css"
+@import "./stylesCSS/main-content.css";
+
+/* sidebar */
+@import "./stylesCSS/sidebar.css";
