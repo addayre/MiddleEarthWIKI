@@ -1,11 +1,13 @@
-/* navbar style */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:wght@300&display=swap');
+
+/* Styles */
 @import "./stylesCSS/nav-bar.css";
 
-/* banner-top style */
 @import "./stylesCSS/banner.css";
 
-/* content-middle */
 @import "./stylesCSS/main-content.css";
 
-/* sidebar */
 @import "./stylesCSS/sidebar.css";
+ 

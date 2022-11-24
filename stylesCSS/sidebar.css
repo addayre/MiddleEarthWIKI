@@ -3,3 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.sidebarContent h2 {
+    font-size: 32px;
+    text-align: start;
+}
