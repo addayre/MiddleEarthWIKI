@@ -49,6 +49,11 @@ hr::after {
     width: 100%;
     height: 340px;
     border-radius: 10px;
+    transition: transform .2s;
+}
+
+.mainCardImg:hover {
+    transform: scale((1.5));
 }
 .sidebarCardImg {
     width: 100%;
@@ -58,10 +63,9 @@ hr::after {
 .categoryCard {
     width: 280px;
     height: auto;
-    border: 2px solid transparent;
     border-radius: 10px;
-    transition: 0.5s;
     cursor: pointer;
+    transition: 0.5s
 }
 .mainContent {
     display: flex;
@@ -71,14 +75,14 @@ hr::after {
     grid-area: mainContent;
 }
 .categoryCard:hover {
-    border-color: black;
+    transform: scale(1.1);
 }
 .mainCategoryCardTitle {
     font-family: 'Cinzel', serif;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
 }
 .mainCategoryCardDescription {
     font-family: 'Nanum Myeongjo', serif;
-    font: 18px;
+    font: 20px;
 }
