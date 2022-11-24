@@ -42,18 +42,13 @@ hr::after {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "mainContent sidebarContent";
-    padding: 20px;
+    padding: 35px;
     flex: 1 0 auto;
 }
 .mainCardImg {
     width: 100%;
     height: 340px;
     border-radius: 10px;
-    transition: transform .2s;
-}
-
-.mainCardImg:hover {
-    transform: scale((1.5));
 }
 .sidebarCardImg {
     width: 100%;
@@ -65,7 +60,7 @@ hr::after {
     height: auto;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.5s
+    transition: 0.5s; /* zoom animation */
 }
 .mainContent {
     display: flex;
@@ -75,7 +70,7 @@ hr::after {
     grid-area: mainContent;
 }
 .categoryCard:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* zoom animation */
 }
 .mainCategoryCardTitle {
     font-family: 'Cinzel', serif;
