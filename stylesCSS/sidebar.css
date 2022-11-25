@@ -27,7 +27,7 @@
 .sidebarContent {
     background-color: #65FDF0;
     border-radius: 35px;  
-    min-width: 300px
+    min-width: 300px;
 }
 .sidebarCard {
     border: 2px solid transparent; 
