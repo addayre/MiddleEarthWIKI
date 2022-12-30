@@ -11,4 +11,59 @@
 
 @import "./stylesCSS/sidebar.css";
  
-@import "./stylesCSS/footer.css"
+@import "./stylesCSS/footer.css";
+
+@media (max-width: 1500px) {
+    .cardSection {
+        padding-right: 9vh;
+        padding-left: 2vh;
+    }
+}
+@media (max-width: 1184px) {
+    .banner {
+        padding: 14px;
+    }
+    .banner-image {
+        position: relative;
+        width: 12.5vh;
+        left: 150px;
+    }
+    .banner-image1 {
+        position: relative;
+        top: -0.5vh;
+        width: 34vh;
+    }
+}
+@media (max-width: 1183px) {
+    .banner {
+        padding: 14px;
+    }
+    .banner-image {
+        position: relative;
+        width: 12.5vh;
+        left: 150px;
+    }
+    .banner-image1 {
+        position: relative;
+        top: -0.5vh;
+        width: 34vh;;
+    }
+}
+@media (max-width: 1161px) {
+    .banner {
+        padding: 10px;
+    }
+    .banner-title {
+        position: relative;
+    }
+    .banner-image {
+        position: relative;
+        width: 12.5vh;
+        left: 150px;
+    }
+    .banner-image1 {
+        position: relative;
+        top: -0.5vh;
+        width: 34vh;;
+    }
+}

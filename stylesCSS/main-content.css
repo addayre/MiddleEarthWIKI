@@ -34,13 +34,10 @@ hr::after {
     background-color: transparent;
 } 
 .cardSection {
-    margin-top: 12vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    padding: 18vh;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "mainContent sidebarContent";
-    padding: 35px;
     flex: 1 0 auto;
 }
 .mainCardImg {

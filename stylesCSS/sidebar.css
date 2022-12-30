@@ -26,8 +26,11 @@
 }
 .sidebarContent {
     background-color: #65FDF0;
+    height: max-content;
     border-radius: 35px;  
-    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .sidebarCard {
     border: 2px solid transparent; 
